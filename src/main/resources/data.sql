@@ -22,4 +22,11 @@ create table LOAN
         foreign key (USER_ID) references USER (ID)
 );
 
+INSERT INTO USER(ID, FIRST_NAME, LAST_NAME, EMAIL) VALUES
+(9999, 'John', 'Lewis', 'johnlewis@gmail.com');
 
+INSERT INTO LOAN(ID, USER_ID, TOTAL) VALUES
+(1, 9999, 1500.50);
+
+INSERT INTO LOAN(ID, USER_ID, TOTAL) VALUES
+(2, 9999, 605000.99);
