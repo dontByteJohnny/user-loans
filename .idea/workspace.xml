@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9511a039-9761-4abb-9253-06413d2d19e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loans/UserControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/controller/LoanController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/exception/ExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/exception/ExceptionHandlerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/LoanDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/LoanDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/LoansPagingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/LoansPagingDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/PaginationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/PaginationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/model/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/model/entity/LoanEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/model/entity/LoanEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/model/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/model/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/repository/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/repository/LoanRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/service/LoanInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/service/LoanInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/loans/service/UserLoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loans/service/UserLoanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/controller/LoanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/controller/LoanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserControllerTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loans/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/exception/ExceptionHandlerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/exception/ExceptionHandlerAdvice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loans/model/dto/LoanDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/model/dto/LoanDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/model/dto/LoansPagingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/model/dto/LoansPagingDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/model/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/model/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/model/entity/LoanEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/model/entity/LoanEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/model/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/model/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loans/service/LoanInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/service/LoanInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loans/service/UserLoanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/loans/service/UserLoanService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +96,72 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.loans" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.loans.repository" />
       <recent name="com.loans.controller" />
       <recent name="com.loans.model.dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ApplicationStarter">
+    <configuration name="LoanControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.loans" />
+      <option name="MAIN_CLASS_NAME" value="com.loans.LoanControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loans" />
+      <option name="PACKAGE_NAME" value="com.loans" />
+      <option name="MAIN_CLASS_NAME" value="com.loans.UserControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTests.getUser_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.loans" />
+      <option name="MAIN_CLASS_NAME" value="com.loans.UserControllerTests" />
+      <option name="METHOD_NAME" value="getUser_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTests.postingUser_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.loans" />
+      <option name="MAIN_CLASS_NAME" value="com.loans.UserControllerTests" />
+      <option name="METHOD_NAME" value="postingUser_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -153,6 +196,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTests" />
+        <item itemvalue="JUnit.LoanControllerTests" />
+        <item itemvalue="JUnit.UserControllerTests.getUser_ok" />
+        <item itemvalue="JUnit.UserControllerTests.postingUser_ok" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -186,7 +237,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611698659052</updated>
-      <workItem from="1611698666100" duration="67719000" />
+      <workItem from="1611698666100" duration="74272000" />
     </task>
     <servers />
   </component>
@@ -206,6 +257,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="49" width="1089" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611724923739" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1611975556331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1611975556330" />
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611700274550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -218,74 +273,78 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1611967037730" />
+    <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611971754897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1611971754897" />
     <state x="334" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611862703521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="334" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1611862703521" />
-    <state x="524" y="116" width="828" height="592" key="#xdebugger.evaluate" timestamp="1611968568813">
+    <state x="524" y="116" width="828" height="592" key="#xdebugger.evaluate" timestamp="1611975634081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="116" width="828" height="592" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1611968568813" />
-    <state width="786" height="450" key="DebuggerActiveHint" timestamp="1611968525012">
+    <state x="524" y="116" width="828" height="592" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1611975634081" />
+    <state width="786" height="450" key="DebuggerActiveHint" timestamp="1611976742002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="786" height="450" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1611968525012" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1611969745865">
+    <state width="786" height="450" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1611976742002" />
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1611977070016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611969745865" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1611969745864">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611977070016" />
+    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1611977070015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611969745864" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1611969745864">
+    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611977070015" />
+    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1611977070015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611969745864" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1611969745864">
+    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611977070015" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1611977070015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611969745864" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1611969745555">
+    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611977070015" />
+    <state width="1493" height="286" key="GridCell.Tab.1.bottom" timestamp="1611977069540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611969745555" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1611969745555">
+    <state width="1493" height="286" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611977069540" />
+    <state width="1493" height="286" key="GridCell.Tab.1.center" timestamp="1611977069539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611969745555" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1611969745555">
+    <state width="1493" height="286" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611977069539" />
+    <state width="1493" height="286" key="GridCell.Tab.1.left" timestamp="1611977069539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611969745555" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1611969745555">
+    <state width="1493" height="286" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611977069539" />
+    <state width="1493" height="286" key="GridCell.Tab.1.right" timestamp="1611977069539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611969745555" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1611969745556">
+    <state width="1493" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611977069539" />
+    <state width="1493" height="286" key="GridCell.Tab.2.bottom" timestamp="1611977069540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611969745556" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1611969745555">
+    <state width="1493" height="286" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611977069540" />
+    <state width="1493" height="286" key="GridCell.Tab.2.center" timestamp="1611977069540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1611969745555" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1611969745555">
+    <state width="1493" height="286" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1611977069540" />
+    <state width="1493" height="286" key="GridCell.Tab.2.left" timestamp="1611977069540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1611969745555" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1611969745556">
+    <state width="1493" height="286" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1611977069540" />
+    <state width="1493" height="286" key="GridCell.Tab.2.right" timestamp="1611977069540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1611969745556" />
+    <state width="1493" height="286" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1611977069540" />
     <state width="233" height="457" key="HiddenNamespacesPopup" timestamp="1611889277865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="233" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1611889277865" />
-    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1611896669665">
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1611976741121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1611896669665" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1611976741121" />
     <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1611888697247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -298,10 +357,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1611869076209" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1611955177887">
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1611973340750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611955177887" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611973340750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,9 +391,19 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/loans/service/UserLoanService.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="33" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/loans/LoanControllerTests.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/loans/LoanControllerTests.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/loans/LoanControllerTests.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

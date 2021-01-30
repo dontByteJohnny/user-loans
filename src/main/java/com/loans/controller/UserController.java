@@ -16,6 +16,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
@@ -38,7 +39,7 @@ public class UserController {
 
     @ApiOperation(value = "Get Users")
     @GetMapping("/{id}")
-    public ResponseEntity<UserDTO> getUser(@PathVariable Long id) throws ApiException {
+    public ResponseEntity<UserDTO> getUser(@PathVariable @Valid @NotNull(message = "user id is mandatory") Long id) throws ApiException {
         logger.info("Getting user data for id: " + id);
         UserDTO userDTO = userLoanService.getUser(id);
         logger.info("Getting user data success for id: " + id);
@@ -47,7 +48,7 @@ public class UserController {
 
     @ApiOperation(value = "Delete Users")
     @DeleteMapping("/{id}")
-    public ResponseEntity<BaseResponse> deleteUser(@PathVariable Long id) throws ApiException {
+    public ResponseEntity<BaseResponse> deleteUser(@PathVariable @Valid @NotNull(message = "user id is mandatory") Long id) throws ApiException {
         logger.info("Deletion of user: " + id);
         userLoanService.deleteUser(id);
         logger.info("Deletion success of user: " + id);

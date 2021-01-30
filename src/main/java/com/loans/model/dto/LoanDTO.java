@@ -18,4 +18,12 @@ public class LoanDTO {
     @NotNull(message = "userId is mandatory")
     private Long userId;
 
+    public LoanDTO() {}
+
+    public LoanDTO(Long id, BigDecimal total, Long userId) {
+        this.id = id;
+        this.total = total;
+        this.userId = userId;
+    }
+
 }

@@ -102,7 +102,7 @@ public class UserLoanService implements UserInterface, LoanInterface {
 
             Query query;
             if(userId != null) {
-                logger.info("Pagination will be with userId": userId);
+                logger.info("Pagination will be with userId: " + userId);
                 query = entityManager.createQuery("select L from LoanEntity L where L.userId = :userId");
                 UserEntity userEntity = new UserEntity();
                 userEntity.setId(userId);
