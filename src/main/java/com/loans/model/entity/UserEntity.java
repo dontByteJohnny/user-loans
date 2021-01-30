@@ -1,27 +1,33 @@
 package com.loans.model.entity;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Set;
 
-@Data
+@Getter
+@Setter
 @Entity
-@Table(name = "user")
+@ToString
+@Table(name = "USER")
 public class UserEntity implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @SequenceGenerator(name = "sequence_user_id", sequenceName = "sequence_user_id")
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "sequence_user_id")
+    @Column(name = "ID")
     private Long id;
+    @Column(name = "EMAIL")
     private String email;
+    @Column(name = "FIRST_NAME")
     private String firstName;
+    @Column(name = "LAST_NAME")
     private String lastName;
-    @OneToMany(mappedBy = "user", orphanRemoval = true, cascade=CascadeType.PERSIST)
+    @ToString.Exclude
+    @OneToMany(mappedBy = "userId", fetch =  FetchType.LAZY, orphanRemoval = true, cascade=CascadeType.MERGE)
     private Set<LoanEntity> loans;
-
-    @Override
-    public String toString() {
-        return this.getClass().getSimpleName() + "-" + getId();
-    }
 
 }

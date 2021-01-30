@@ -6,6 +6,12 @@ import lombok.Data;
 public class PaginationDTO {
     private Integer page;
     private Integer size;
-    private Integer total;
+    private Long total;
+
+    public PaginationDTO(Integer size, Integer page, Long total) {
+        this.size = size;
+        this.page = page;
+        this.total = total;
+    }
 
 }

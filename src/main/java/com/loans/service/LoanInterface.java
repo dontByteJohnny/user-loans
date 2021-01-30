@@ -6,6 +6,6 @@ import com.loans.model.dto.LoansPagingDTO;
 
 public interface LoanInterface {
     void postLoan(LoanDTO loanDTO) throws ApiException;
-    LoansPagingDTO getLoan(Long userId) throws ApiException;
+    LoansPagingDTO getLoans(Integer page, Integer size, Long userId) throws ApiException;
     void deleteLoan(Long loanId) throws ApiException;
 }

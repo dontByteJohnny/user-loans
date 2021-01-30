@@ -19,6 +19,9 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import org.springframework.web.servlet.NoHandlerFoundException;
 
 import javax.validation.ConstraintViolationException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RestControllerAdvice
 public class ExceptionHandlerAdvice {
@@ -85,10 +88,12 @@ public class ExceptionHandlerAdvice {
     }
 
     @ExceptionHandler(ConstraintViolationException.class)
-    public ResponseEntity<Error> exceptionHandler(ConstraintViolationException e) {
+    public ResponseEntity<List<Error>> exceptionHandler(ConstraintViolationException e) {
         HttpHeaders headers = setHeaders();
-        Error response = new Error(HttpStatus.BAD_REQUEST.value(), "Json format is invalid");
-        return new ResponseEntity<>(response, headers, HttpStatus.BAD_REQUEST);
+        List<Error> errorsResponse = new ArrayList<>();
+        e.getConstraintViolations().forEach(ex -> errorsResponse.add(new Error(400, ex.getMessage())));
+        //new Error(HttpStatus.BAD_REQUEST.value(), "Json format is invalid");
+        return new ResponseEntity<>(errorsResponse, headers, HttpStatus.BAD_REQUEST);
     }
 
 }
