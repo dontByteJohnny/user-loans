@@ -22,7 +22,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 @RequestMapping("/loans")
-@Api(tags = "Loans account API")
 @Validated
 public class LoanController {
     @Autowired
@@ -39,7 +38,7 @@ public class LoanController {
         return new ResponseEntity<>(BaseResponse.builder().message("Loan created").build(), HttpStatus.CREATED);
     }
 
-    @ApiOperation(value = "Get Users")
+    @ApiOperation(value = "Get Loans")
     @GetMapping()
     public ResponseEntity<LoansPagingDTO> getLoans(
             @Param(value = "page") @Valid @NotNull(message = "page is mandatory") @Min(message = "page must be at least 1", value = 1) Integer page,
@@ -49,7 +48,7 @@ public class LoanController {
         return new ResponseEntity<>(loansPagingDTO, HttpStatus.OK);
     }
 
-    @ApiOperation(value = "Delete Users")
+    @ApiOperation(value = "Delete Loan")
     @DeleteMapping("/{id}")
     public ResponseEntity<BaseResponse> deleteLoan(@PathVariable Long id) throws ApiException {
         logger.info("Deleting loan with id: " + id);
